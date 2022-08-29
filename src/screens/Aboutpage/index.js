@@ -1,7 +1,7 @@
 import React from "react";
 import './index.css';
 
-function Homepage(){
+function Aboutpage(){
     return(
 
         <h1>This is about page</h1> 

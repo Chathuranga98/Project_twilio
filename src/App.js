@@ -1,5 +1,6 @@
 import { BrowserRouter as Router,Route,Routes} from 'react-router-dom';
 import { Page } from './Page';
+import Aboutpage from './screens/Aboutpage';
 import Homepage from './screens/Homepage';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
 
 
       </Route>
-      <Route path="/about" exact>
+      <Route path="/about" element={<Aboutpage/>}>
 
       </Route>
       </Routes>
