@@ -1,10 +1,15 @@
 import React from "react";
 import './index.css';
+import HomeHero from "./components/HomeHero";
+import HomeCards from "./components/HomeCards";
 
 function Homepage(){
     return(
 
-        <h1>This is home page</h1> 
+        <div>
+        <HomeHero/>
+        <HomeCards/>
+        </div>
 
     );
 }
