@@ -29,7 +29,7 @@ function HomeHero() {
         <div className="column is-6 has-text-centered">
           <img
             className="hero-image "
-            src="https://res.cloudinary.com/chathuranga/image/upload/v1661965368/cld-sample-2.jpg"
+            src="https://res.cloudinary.com/chathuranga/image/upload/v1661965368/cld-sample-2.jpg" alt="adfff"
           />
         </div>
       </div>

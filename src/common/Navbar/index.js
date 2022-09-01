@@ -7,13 +7,13 @@ function Navbar() {
       <div class="navbar-brand">
         <a class="navbar-item" href="https://bulma.io">
           <img
-            src="https://bulma.io/images/bulma-logo.png"
+            src="https://bulma.io/images/bulma-logo.png" alt="adadaf"
             width="112"
             height="28"
           />
         </a>
 
-        <a
+        <a href="https://chathuranga.me"
           role="button"
           class="navbar-burger"
           aria-label="menu"
@@ -28,15 +28,15 @@ function Navbar() {
 
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item">Home</a>
+          <a class="navbar-item" href="/abc">Home</a>
 
-          <a class="navbar-item">About</a>
+          <a class="navbar-item" href="/about">About</a>
         </div>
 
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="buttons">
-              <a href="#"></a>
+              
               <button class="button is-black">
                 <span class="icon is-small">
                   <i class="fab fa-github"></i>
