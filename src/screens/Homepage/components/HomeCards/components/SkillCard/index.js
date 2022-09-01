@@ -8,7 +8,7 @@ function SkillCard(props){
           <div class="content">
             <img
               className="skill-card-image"
-              src="https://res.cloudinary.com/chathuranga/image/upload/v1661970431/images_df0mhm.jpg"
+              src="https://res.cloudinary.com/chathuranga/image/upload/v1661970431/images_df0mhm.jpg" alt="afjhj"
             />
 
             <h1 className="title is-4">{props.title}</h1>
