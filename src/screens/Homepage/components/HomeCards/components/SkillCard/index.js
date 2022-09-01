@@ -1,9 +1,9 @@
 import React from "react";
 import './index.css';
 
-function SkillCard(){
+function SkillCard(props){
     return (
-      <div class="card">
+      <div class={props.color==="blue"?"card blue-card":(props.color==="yellow"? "card yellow-card" :"card green-card")}>
         <div class="card-content">
           <div class="content">
             <img
@@ -11,11 +11,10 @@ function SkillCard(){
               src="https://res.cloudinary.com/chathuranga/image/upload/v1661970431/images_df0mhm.jpg"
             />
 
-            <h1 className="title is-4">Work Card</h1>
+            <h1 className="title is-4">{props.title}</h1>
 
             <p class="title is-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              nec iaculis mauris.
+             {props.des}
             </p>
           </div>
         </div>
