@@ -2,6 +2,8 @@ import React from "react";
 import './index.css';
 import SkillCard from "./components/SkillCard";
 
+
+
 function HomeCards(){
     return (
       <section className="work-card-text">
